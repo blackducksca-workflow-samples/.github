@@ -31,4 +31,4 @@ Results](https://blackducksca-user-guide.github.io/sarif-generation/) |
                                                                                                                                                                                                                                          
 ## Documentation                                                                                                                                                                                                                         
                                                                                                                                                                                                                                          
-For detailed configuration options, visit the [Black Duck GitHub Integration Documentation](https://documentation.blackduck.com/bundle/bridge/page/documentation/c_github-blackduck.html). 
+For detailed configuration options, visit the [Black Duck GitHub Integration Documentation](https://documentation.blackduck.com/bundle/bridge/page/documentation/c_github-blackduck.html).
