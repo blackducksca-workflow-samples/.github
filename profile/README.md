@@ -1,4 +1,4 @@
-# Black Duck SCA Examples                                                                                                                                                                                                                
+# Black Duck SCA Workflow Examples                                                                                                                                                                                                                
                                                                                                                                                                                                                                          
 Live, executable examples demonstrating Black Duck SCA integration with CI/CD pipelines.                                                                                                                                                 
                                                                                                                                                                                                                                          
