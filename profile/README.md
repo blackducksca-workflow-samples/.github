@@ -1,8 +1,13 @@
 # Black Duck SCA Samples                                                                                                                                                                                                                          
                                                                                                                                                                                                                                                    
 Live, executable samples using the Black Duck Security Scan Action with Black Duck SCA                                                                                                                                                         
-                                                                                                                                                                                                                                                   
-## Workflows                                                                                                                                                                                                                              
+
+## Workflows using Bridge CLI
+| How To? | Details | Workflow File | Scan Results |                                                                                                                                                                
+|---------|-------------|---------------|---------------------|                                                                                                                                                               
+| [**Scan repository with build as a pre-step (Recommended)**](https://github.com/blackducksca-workflow-samples/full-scan) | This recommended method ensures SAST analysis on compiled code and artifacts through a pre-build step for comprehensive vulnerability detection | [Workflow](https://github.com/blackducksca-workflow-samples/full-scan/blob/main/.github/workflows/nodejs-npm.yml) |[Results](https://blackducksca-workflow-samples.github.io/full-scan/) |
+
+## Workflows using Black Duck Security Scan Action
                                                                                                                                                                                                                                                    
 | How To? | Details | Workflow File | Scan Results |                                                                                                                                                                
 |---------|-------------|---------------|---------------------|                                                                                                                                                               
