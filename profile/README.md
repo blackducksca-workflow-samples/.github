@@ -46,7 +46,7 @@ Live, executable samples using the Black Duck Security Scan Action with Black Du
 - **Supply Chain Attacks:** SolarWinds-style incidents highlighting third-party risks
 - **Developer Productivity:** Reducing time spent on manual security research
 
-**Bottom Line:** SCA is essential for any organization using open source components (99% of modern applications) to manage security, legal, and operational risks effectively.
+
 
 </details>
 
