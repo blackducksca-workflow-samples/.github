@@ -54,6 +54,16 @@ Live, executable samples using the Black Duck Security Scan Action with Black Du
 |---------|---------|---------------|--------------|
 | [**Scan repository with build as a pre-step (Recommended)**](https://github.com/blackducksca-workflow-samples/bridgecli) | This recommended method ensures SAST analysis on compiled code and artifacts through a pre-build step for comprehensive vulnerability detection | [Workflow](https://github.com/blackducksca-workflow-samples/bridgecli/blob/main/.github/workflows/BlackduckSCA_Bridge.yml) | [Results](https://blackducksca-workflow-samples.github.io/bridgecli/) [![Build Status](https://github.com/blackducksca-workflow-samples/bridgecli/actions/workflows/BlackduckSCA_Bridge.yml/badge.svg)](https://github.com/blackducksca-workflow-samples/bridgecli/actions) |
 
+## Workflows using Bridge CLI
+| How To? | Details | Workflow File | Build Status | Scan Results |
+|---------|---------|---------------|--------------|--------------|
+| [**Scan repository with build as a pre-step (Recommended)**](https://github.com/blackducksca-workflow-samples/bridgecli) | This recommended method ensures SAST analysis on compiled code and artifacts through a pre-build step for comprehensive vulnerability detection | [Workflow](https://github.com/blackducksca-workflow-samples/bridgecli/blob/main/.github/workflows/BlackduckSCA_Bridge.yml) | [![Build Status](https://github.com/blackducksca-workflow-samples/bridgecli/actions/workflows/BlackduckSCA_Bridge.yml/badge.svg)](https://github.com/blackducksca-workflow-samples/bridgecli/actions) | [Results](https://blackducksca-workflow-samples.github.io/bridgecli/) |
+
+## Workflows using Bridge CLI
+| How To? | Details | Workflow File | Scan Results |
+|---------|---------|---------------|--------------|
+| [**Scan repository with build as a pre-step (Recommended)**](https://github.com/blackducksca-workflow-samples/bridgecli) | This recommended method ensures SAST analysis on compiled code and artifacts through a pre-build step for comprehensive vulnerability detection | [Workflow](https://github.com/blackducksca-workflow-samples/bridgecli/blob/main/.github/workflows/BlackduckSCA_Bridge.yml) | [![Build Status](https://github.com/blackducksca-workflow-samples/bridgecli/actions/workflows/BlackduckSCA_Bridge.yml/badge.svg)](https://github.com/blackducksca-workflow-samples/bridgecli/actions)<br>[View Results](https://blackducksca-workflow-samples.github.io/bridgecli/) |
+
 
 ## Workflows using Black Duck Security Scan Action
 
