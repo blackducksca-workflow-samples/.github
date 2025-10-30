@@ -10,7 +10,7 @@ Live, executable samples using the Black Duck Security Scan Action with Black Du
 
 ## Overview
 
-## What is Black Duck SCA? 
+### What is Black Duck SCA? 
 
 <details>
 <summary><strong>📖 Click to learn when and why you need SCA scanning</strong></summary>
@@ -46,7 +46,6 @@ Live, executable samples using the Black Duck Security Scan Action with Black Du
 - **Merger & acquisition** due diligence requirements
 - **Insurance requirements** for cyber liability coverage
 
-**Bottom Line:** SCA is essential for any organization using open source components (99% of modern applications) to manage security, legal, and operational risks effectively.
 
 </details>
 
