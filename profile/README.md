@@ -16,37 +16,37 @@ Live, executable samples using the Black Duck Security Scan Action with Black Du
 <summary><strong>📖 Click to learn when and why you need SCA scanning</strong></summary>
 
 ### 🔍 What SCA Detects:
-- **Security Vulnerabilities:** Known CVEs with CVSS scores, exploit availability, and remediation paths
-- **License Risks:** GPL conflicts, commercial restrictions, attribution requirements, copyleft obligations
-- **Supply Chain Threats:** Malicious packages, typosquatting attacks, compromised dependencies
-- **Technical Debt:** Outdated libraries, end-of-life components, unmaintained projects
+- **Security Vulnerabilities:** Known CVEs in open source components with CVSS severity ratings
+- **License Compliance Issues:** License conflicts and policy violations in dependencies
+- **Outdated Components:** Libraries with available security patches or newer versions
+- **Operational Risks:** End-of-life components and maintenance status
 
 ### ⏰ When Users Need SCA:
-- **Pre-Commit:** Developer workstation scanning before code submission
-- **CI/CD Pipeline:** Automated build validation and release gate enforcement  
-- **Production Monitoring:** Continuous vulnerability tracking and new CVE alerting
-- **Compliance Events:** Audit preparation, customer security reviews, regulatory reporting
+- **Pre-deployment:** Before releasing applications to production
+- **Continuous Monitoring:** Ongoing scanning of existing applications
+- **Dependency Updates:** When adding or updating third-party libraries
+- **Compliance Audits:** During security assessments and regulatory reviews
 
 ### 👥 Critical User Scenarios:
-- **Developers:** *"Is this dependency secure?"* → Instant vulnerability and license validation
-- **Security Teams:** *"Are we affected by the latest CVE?"* → Rapid impact assessment across all applications
-- **Legal Teams:** *"Can we distribute this commercially?"* → License compliance verification and risk analysis
-- **DevOps Teams:** *"Should we block this deployment?"* → Risk-based release decisions with clear thresholds
+- **Pull Request Validation:** Block PRs introducing vulnerable dependencies
+- **Release Gate Controls:** Prevent deployment of applications with critical CVEs
+- **Incident Response:** Rapid identification of affected components during security breaches
+- **Vendor Assessments:** Generate security reports for customer requirements
 
 ### 💰 Business Impact:
-- **Risk Mitigation:** 96% of applications contain open source code; 84% have known vulnerabilities *(Synopsys OSSRA 2024)*
-- **Cost Avoidance:** Average security breach costs $4.88M; prevention costs significantly less *(IBM Security 2024)*
-- **Compliance Assurance:** Automated license tracking prevents legal disputes and contract violations
-- **Developer Velocity:** Early detection reduces fixing costs by 100x compared to production remediation
+- **Risk Reduction:** Prevent security breaches from vulnerable dependencies
+- **Compliance Assurance:** Meet regulatory and contractual obligations
+- **Cost Avoidance:** Avoid expensive post-deployment security fixes
+- **Reputation Protection:** Maintain customer trust through proactive security
 
 ### 🚨 Key Triggers for SCA Implementation:
-- **Security Incidents:** Vulnerability exploits in your technology stack
-- **Compliance Requirements:** SOX, GDPR, HIPAA mandating software inventory
-- **Customer Demands:** Enterprise buyers requiring security attestations
-- **Supply Chain Attacks:** SolarWinds-style incidents highlighting third-party risks
-- **Developer Productivity:** Reducing time spent on manual security research
+- **Customer security questionnaires** requiring vulnerability reports
+- **Regulatory compliance mandates** (SOC 2, ISO 27001, GDPR)
+- **Security incidents** involving third-party components
+- **Merger & acquisition** due diligence requirements
+- **Insurance requirements** for cyber liability coverage
 
-
+**Bottom Line:** SCA is essential for any organization using open source components (99% of modern applications) to manage security, legal, and operational risks effectively.
 
 </details>
 
