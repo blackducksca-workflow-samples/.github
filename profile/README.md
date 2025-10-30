@@ -25,4 +25,4 @@ Live, executable samples using the Black Duck Security Scan Action with Black Du
                                                                           
                                                                                                                                                                                                                                                    
 ## Helpful Links                                                                                                                                                                                                                         
-For detailed configuration options, visit the [Using the Black Duck Security Scan Action with Black Duck SCA Documentation](https://documentation.blackduck.com/bundle/bridge/page/documentation/c_github-blackduck.html)
+[Using the Black Duck Security Scan Action with Black Duck SCA Documentation](https://documentation.blackduck.com/bundle/bridge/page/documentation/c_github-blackduck.html)
