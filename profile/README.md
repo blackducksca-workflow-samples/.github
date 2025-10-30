@@ -1,6 +1,7 @@
 # Black Duck SCA Samples                                                                                                                                                                                                                          
                                                                                                                                                                                                                                                    
-Live, executable samples using the Black Duck Security Scan Action with Black Duck SCA                                                                                                                                                         
+Live, executable samples using the Black Duck Security Scan Action with Black Duck SCA
+
 
 ## Workflows using Bridge CLI
 | How To? | Details | Workflow File | Scan Results |                                                                                                                                                                
