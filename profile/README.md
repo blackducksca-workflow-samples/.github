@@ -1,64 +1,13 @@
 # Black Duck SCA Samples                                                                                                                                                                                                                          
 
-Live, executable samples using the Black Duck Security Scan Action with Black Duck SCA
-
 ## Table of Contents
 - [Overview](#overview)
-- [Workflows using Bridge CLI](#workflows-using-bridge-cli)
 - [Workflows using Black Duck Security Scan Action](#workflows-using-black-duck-security-scan-action)
+- [Workflows using Bridge CLI](#workflows-using-bridge-cli)
 - [Helpful Links](#helpful-links)
 
 ## Overview
-
-### What is Black Duck SCA? 
-
-<details>
-<summary><strong>📖 Click to learn when and why you need SCA scanning</strong></summary>
-
-### 🔍 What SCA Detects:
-- **Security Vulnerabilities:** Known CVEs in open source components with CVSS severity ratings
-- **License Compliance Issues:** License conflicts and policy violations in dependencies
-- **Outdated Components:** Libraries with available security patches or newer versions
-- **Operational Risks:** End-of-life components and maintenance status
-
-### ⏰ When Users Need SCA:
-- **Pre-deployment:** Before releasing applications to production
-- **Continuous Monitoring:** Ongoing scanning of existing applications
-- **Dependency Updates:** When adding or updating third-party libraries
-- **Compliance Audits:** During security assessments and regulatory reviews
-
-### 👥 Critical User Scenarios:
-- **Pull Request Validation:** Block PRs introducing vulnerable dependencies
-- **Release Gate Controls:** Prevent deployment of applications with critical CVEs
-- **Incident Response:** Rapid identification of affected components during security breaches
-- **Vendor Assessments:** Generate security reports for customer requirements
-
-### 💰 Business Impact:
-- **Risk Reduction:** Prevent security breaches from vulnerable dependencies
-- **Compliance Assurance:** Meet regulatory and contractual obligations
-- **Cost Avoidance:** Avoid expensive post-deployment security fixes
-- **Reputation Protection:** Maintain customer trust through proactive security
-
-### 🚨 Key Triggers for SCA Implementation:
-- **Customer security questionnaires** requiring vulnerability reports
-- **Regulatory compliance mandates** (SOC 2, ISO 27001, GDPR)
-- **Security incidents** involving third-party components
-- **Merger & acquisition** due diligence requirements
-- **Insurance requirements** for cyber liability coverage
-
-
-</details>
-                                                                                                                                                            
-
-## Workflows using Bridge CLI
-| How To? | Details | Workflow File | Scan Results |
-|---------|---------|---------------|--------------|
-| [**Scan repository with build as a pre-step (Recommended)**](https://github.com/blackducksca-workflow-samples/bridgecli) | This recommended method ensures SAST analysis on compiled code and artifacts through a pre-build step for comprehensive vulnerability detection | [Workflow](https://github.com/blackducksca-workflow-samples/bridgecli/blob/main/.github/workflows/BlackduckSCA_Bridge.yml) | [Results](https://blackducksca-workflow-samples.github.io/bridgecli/) [![Build Status](https://img.shields.io/github/actions/workflow/status/blackducksca-workflow-samples/bridgecli/BlackduckSCA_Bridge.yml)](https://github.com/blackducksca-workflow-samples/bridgecli/actions/workflows/BlackduckSCA_Bridge.yml) |
-
-## Workflows using Bridge CLI
-| How To? | Details | Workflow File | Scan Results | Build Status |
-|---------|---------|---------------|--------------|--------------|
-| [**Scan repository with build as a pre-step (Recommended)**](https://github.com/blackducksca-workflow-samples/bridgecli) | This recommended method ensures SAST analysis on compiled code and artifacts through a pre-build step for comprehensive vulnerability detection | [Workflow](https://github.com/blackducksca-workflow-samples/bridgecli/blob/main/.github/workflows/BlackduckSCA_Bridge.yml) | [Results](https://blackducksca-workflow-samples.github.io/bridgecli/) | [![Build Status](https://img.shields.io/github/actions/workflow/status/blackducksca-workflow-samples/bridgecli/BlackduckSCA_Bridge.yml)](https://github.com/blackducksca-workflow-samples/bridgecli/actions/workflows/BlackduckSCA_Bridge.yml) |
+Live, executable samples using the Black Duck Security Scan Action with Black Duck SCA
 
 
 ## Workflows using Black Duck Security Scan Action
@@ -77,6 +26,11 @@ Live, executable samples using the Black Duck Security Scan Action with Black Du
 | [**Simplified workflow using default configurations for beginners**](https://github.com/blackducksca-workflow-samples/simplified-example) | Basic workflow demonstrating all Black Duck SCA features with default configurations. Ideal for beginners to explore features quickly. A perfect starting point to understand core capabilities without configuration complexity | [Workflow](https://github.com/blackducksca-workflow-samples/simplified-example/blob/main/.github/workflows/nodejs-npm.yml) | [Results](https://blackducksca-workflow-samples.github.io/simplified-example/) | 
 | [**Detailed workflow with full configurations for advanced users**](https://github.com/blackducksca-workflow-samples/detailed-example) | Comprehensive workflow demonstrating all Black Duck SCA capabilities with full configurations. Ideal for advanced users requiring granular control and customization capabilities | [Workflow](https://github.com/blackducksca-workflow-samples/detailed-example/blob/main/.github/workflows/nodejs-npm.yml) | [Results](https://blackducksca-workflow-samples.github.io/detailed-example/) | 
 
+
+## Workflows using Bridge CLI
+| How To? | Details | Workflow File | Scan Results |
+|---------|---------|---------------|--------------|
+| [**Scan repository with build as a pre-step (Recommended)**](https://github.com/blackducksca-workflow-samples/bridgecli) | This recommended method ensures SAST analysis on compiled code and artifacts through a pre-build step for comprehensive vulnerability detection | [Workflow](https://github.com/blackducksca-workflow-samples/bridgecli/blob/main/.github/workflows/BlackduckSCA_Bridge.yml) | [Results](https://blackducksca-workflow-samples.github.io/bridgecli/) [![Build Status](https://img.shields.io/github/actions/workflow/status/blackducksca-workflow-samples/bridgecli/BlackduckSCA_Bridge.yml)](https://github.com/blackducksca-workflow-samples/bridgecli/actions/workflows/BlackduckSCA_Bridge.yml) |
 
 ## Helpful Links                                                                                                                                                                                                                         
 [Using the Black Duck Security Scan Action with Black Duck SCA Documentation](https://documentation.blackduck.com/bundle/bridge/page/documentation/c_github-blackduck.html)
