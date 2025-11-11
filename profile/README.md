@@ -2,8 +2,8 @@
 
 ## Table of Contents
 - [Overview](#overview)
-- [Workflows using Black Duck Security Scan Action](#workflows-using-black-duck-security-scan-action)
-- [Workflows using Bridge CLI](#workflows-using-bridge-cli)
+- [Workflow Samples using Action](#workflows-samples-using-action)
+- [Workflows Samples using Bridge CLI](#workflows-samples-using-bridge-cli)
 - [Documentation](#documentation)
 
 ## Overview
@@ -26,7 +26,7 @@ Live, executable samples using the Black Duck Security Scan Action with Black Du
 | [**Detailed workflow with full configurations for advanced users**](https://github.com/blackducksca-workflow-samples/detailed-example) | Comprehensive workflow demonstrating all Black Duck SCA capabilities with full configurations. Ideal for advanced users requiring granular control and customization capabilities | [Workflow](https://github.com/blackducksca-workflow-samples/detailed-example/blob/main/.github/workflows/nodejs-npm.yml) | [Results](https://blackducksca-workflow-samples.github.io/detailed-example/) |  [![Build Status](https://img.shields.io/github/actions/workflow/status/blackducksca-workflow-samples/detailed-example/nodejs-npm.yml)](https://github.com/blackducksca-workflow-samples/detailed-example/actions) | 
 
 
-## Workflows using Bridge CLI
+## Workflows Samples using Bridge CLI
 | How To? | Details | Workflow  | Results  | Status |
 |---------|---------|---------------|--------------|--------------|
 | [**Scan repository with build as a pre-step (Recommended)**](https://github.com/blackducksca-workflow-samples/bridgecli) | This recommended method ensures SAST analysis on compiled code and artifacts through a pre-build step for comprehensive vulnerability detection | [Workflow](https://github.com/blackducksca-workflow-samples/bridgecli/blob/main/.github/workflows/BlackduckSCA_Bridge.yml) | [Results](https://blackducksca-workflow-samples.github.io/bridgecli/) | [![Build Status](https://img.shields.io/github/actions/workflow/status/blackducksca-workflow-samples/bridgecli/BlackduckSCA_Bridge.yml)](https://github.com/blackducksca-workflow-samples/bridgecli/actions) |
