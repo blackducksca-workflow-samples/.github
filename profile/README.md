@@ -10,7 +10,7 @@
 Live, executable samples using the Black Duck Security Scan Action with Black Duck SCA
 
 
-## Workflow Samples for Black Duck SCA (uses Action)
+## Workflow Samples using Action
 
 | How To? | Details | Workflow File | Scan Results |                                                                                                                                                                
 |---------|-------------|---------------|---------------------|                                                                                                            
@@ -27,7 +27,7 @@ Live, executable samples using the Black Duck Security Scan Action with Black Du
 | [**Detailed workflow with full configurations for advanced users**](https://github.com/blackducksca-workflow-samples/detailed-example) | Comprehensive workflow demonstrating all Black Duck SCA capabilities with full configurations. Ideal for advanced users requiring granular control and customization capabilities | [Workflow](https://github.com/blackducksca-workflow-samples/detailed-example/blob/main/.github/workflows/nodejs-npm.yml) | [Results](https://blackducksca-workflow-samples.github.io/detailed-example/) | 
 
 
-## Workflow Samples for Black Duck SCA (uses CLI)
+## Workflow Samples using CLI
 | How To? | Details | Workflow File | Scan Results |
 |---------|---------|---------------|--------------|
 | [**Scan repository with build as a pre-step (Recommended)**](https://github.com/blackducksca-workflow-samples/bridgecli) | This recommended method ensures SAST analysis on compiled code and artifacts through a pre-build step for comprehensive vulnerability detection | [Workflow](https://github.com/blackducksca-workflow-samples/bridgecli/blob/main/.github/workflows/BlackduckSCA_Bridge.yml) | [Results](https://blackducksca-workflow-samples.github.io/bridgecli/) |
