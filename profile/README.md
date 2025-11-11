@@ -2,8 +2,8 @@
 
 ## Table of Contents
 - [Overview](#overview)
-- [Workflow Samples using Action](#workflows-samples-using-action)
-- [Workflows Samples using Bridge CLI](#workflows-samples-using-bridge-cli)
+- [Workflow Samples using Action](#workflow-samples-using-action)
+- [Workflow Samples using Bridge CLI](#workflow-samples-using-bridge-cli)
 - [Documentation](#documentation)
 
 ## Overview
