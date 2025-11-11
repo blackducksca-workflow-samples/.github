@@ -12,7 +12,7 @@ Live, executable samples using the Black Duck Security Scan Action with Black Du
 
 ## Workflow Samples using Action
 
-| How To? | Details | Workflow | Scan Results |                                                                                                                                                                
+| How To? | Details | Workflow | Results |                                                                                                                                                                
 |---------|-------------|---------------|---------------------|                                                                                                            
 | [**Scan repository with build as a pre-step (Recommended)**](https://github.com/blackducksca-workflow-samples/full-scan) | This recommended method ensures SAST analysis on compiled code and artifacts through a pre-build step for comprehensive vulnerability detection | [Workflow](https://github.com/blackducksca-workflow-samples/full-scan/blob/main/.github/workflows/nodejs-npm.yml) |[Results](https://blackducksca-workflow-samples.github.io/full-scan/) |
 | [**Scan repository in an environment where build is not an option**](https://github.com/blackducksca-workflow-samples/buildless-scan) | This option is less accurate and should be used when you can't build your repository | [Workflow](https://github.com/blackducksca-workflow-samples/buildless-scan/blob/main/.github/workflows/nodejs-npm.yml) | [Results](https://blackducksca-workflow-samples.github.io/buildless-scan/) |
