@@ -1,4 +1,4 @@
-# Black Duck SCA Samples                                                                                                                                                                                                                          
+# Black Duck SCA Workflow Samples                                                                                                                                                                                                                          
 
 ## Table of Contents
 - [Overview](#overview)
